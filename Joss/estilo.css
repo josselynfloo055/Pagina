@@ -1,0 +1,56 @@
+body{
+    font-family: arial, helvetica;
+    background: rgb(157, 242, 248); 
+}
+
+.inicio{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 100px;
+    margin: auto;
+}
+
+.inicio li a{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    display:block;
+}
+.main-hader{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+}
+
+.main-nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 90px;
+}
+ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+ul li a{
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    color:black;
+    text-decoration: none;
+}
+
